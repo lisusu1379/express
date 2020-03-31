@@ -5,13 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "docs": "apidoc -i ./routers -o ./public/docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apidoc": "^0.20.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisusu1379/express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisusu1379/express/issues"
+  },
+  "homepage": "https://github.com/lisusu1379/express#readme"
 }
