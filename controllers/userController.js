@@ -1,5 +1,8 @@
 const UserModel = require('../models/userModel');
 
+const jsonwebtoken = require('jsonwebtoken');
+
+
 // exports.register = async (req,res) => {
   // 要获取前端传递过来的用户信息 body
   // const { email, password, nickname } = req.body;

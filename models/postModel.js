@@ -34,7 +34,7 @@ const postSchema = new mongoose.Schema({
 });
 
 //创建模型
-const postModel = mongoose.model('post',postSchema);
+const PostModel = mongoose.model('post',postSchema);
 
 //暴露模型
-module.exports = postModel;
+module.exports = PostModel;

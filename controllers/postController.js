@@ -1,7 +1,7 @@
 //帖子的控制器，暴露一系列中间件方法给到帖子的路由去使用
 
 //引入postModel
-const postModel = require('../models/postModel');
+const PostModel = require('../models/postModel');
 const jsonwebtoken = require('jsonwebtoken');
 
 /**

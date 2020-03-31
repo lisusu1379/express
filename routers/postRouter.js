@@ -58,7 +58,7 @@ router.post('/', auth, create);
  * @apiSuccess {Number} code 错误状态码.
  * @apiSuccess {String} msg  错误消息.
  */
-router.put('/:id',update);
+router.put('/:id', auth, update);
 
 /**
  * @api {delete} http://localhost:3000/posts/:id 删除帖子
